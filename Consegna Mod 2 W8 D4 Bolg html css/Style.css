@@ -1,0 +1,110 @@
+body {
+   background-image: url("img/sfondo.png");
+   margin: 0; 
+   padding: 20 px;
+   
+}
+
+
+
+header {
+    background-image: linear-gradient(rgb(22, 147, 250), rgb(122, 122, 122));
+    opacity: 1;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-style: solid;
+    border-color: rgba(93, 93, 93, 0.276);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 9;
+   
+
+
+
+}
+
+
+
+h1 {
+    margin: 0;
+    width: 30%;
+    display: inline-block
+}
+
+nav {
+    width: 60%;
+    display: inline;
+}
+nav ul {
+    display: inline;
+}
+
+table, td {
+    border: 1px solid rgb(114, 114, 114);
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: 25px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+}
+
+main {
+    background-color: rgb(239, 239, 239);
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-color: rgba(93, 93, 93, 0.359);
+    
+     
+    justify-content: space-between;
+    
+    
+
+}
+
+main ul {
+    list-style: none;
+}
+
+footer {
+    background-image: linear-gradient(rgb(13, 144, 146), rgb(122, 122, 122));
+    opacity: 1;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-style: solid;
+    border-color: rgba(93, 93, 93, 0.276);
+    
+
+}
+
+a:link{
+    color: rgb(74, 208, 206);
+}
+
+@media screen and (max-width: 500px) 
+{
+    
+}
+
+
+
+
+
